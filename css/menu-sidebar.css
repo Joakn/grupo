@@ -33,6 +33,7 @@ html { height: 100%;}
     overflow-y: auto;
     overflow-x: hidden;
     background: rgb(86, 174, 171);
+
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -121,7 +122,7 @@ html { height: 100%;}
 
 .sidebar-nav li a {
     display: block;
-    color: #ddd;
+    color: #fff;
     text-decoration: none;
     padding: 10px 15px 10px 30px;    
 }
@@ -206,7 +207,7 @@ html { height: 100%;}
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
-  background-color: #1a1a1a;
+  background-color: rgb(255, 255, 255);
 }
 .hamburger.is-closed .hamb-top { 
   top: 5px; 
@@ -232,7 +233,7 @@ html { height: 100%;}
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-middle,
 .hamburger.is-open .hamb-bottom {
-  background-color: #1a1a1a;
+  background-color: rgb(255, 255, 255);
 }
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-bottom {
@@ -270,4 +271,5 @@ html { height: 100%;}
 /*-------------------------------*/
 /*            Overlay            */
 /*-------------------------------*/
+
 
