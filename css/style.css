@@ -102,7 +102,47 @@ transition: margin 0.3s ease-out;
 .move .foto:hover {
 margin-top: 4px;
 }
+.gif{
+  float: left;
 
+}
+
+
+
+
+
+.caption-style-3 {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.caption-text {
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    top: 20px;
+}
+.blur {
+    background-color: rgba(142, 68, 173,0.95);
+    height: 300px;
+    width: 400px;
+    z-index: 5;
+    position: absolute;
+}
+.caption {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    top: 300px;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
 
 
 
