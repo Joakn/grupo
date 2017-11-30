@@ -81,7 +81,6 @@ padding: 0 !important;
 .card-body, .card-footer {
   padding: 1.25rem;
 }
-
 .py-5 {
     padding-top: 3rem!important;
     padding-bottom: 3rem!important;
@@ -260,12 +259,14 @@ margin-top: 4px;
   }
 
  
+.navbar-inverse{
+  background: rgb(67, 68, 70);
+}
 
+.content-section-a{
+  background: rgb(181, 172, 154);
+}
 
-
-
-
-
-.img-fluid{
-  margin-top: 10px;
+.content-section-b{
+  background: rgb(145, 136, 119);
 }
