@@ -418,3 +418,25 @@ margin-left: 30%;
     margin-bottom: 40px;
   }
 >>>>>>> terminado #un vergo
+
+.card {
+  position: relative;
+  display: block;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0,.125);
+  border-radius: .25rem;
+}
+
+.card-body, .card-footer {
+  padding: 1.25rem;
+}
+
+.container{
+  background: rgb(0, 0, 0);
+}
+
+.h2{
+  color: rgb(255, 255, 255);
+}
