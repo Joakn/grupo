@@ -432,10 +432,13 @@ margin-left: 30%;
   padding: 1.25rem;
 }
 
-.container{
+.container1{
   background: rgb(0, 0, 0);
 }
 
 .h2{
   color: rgb(255, 255, 255);
+}
+.margina{
+  margin-bottom: 30px;
 }
